@@ -8,8 +8,11 @@
     </head>
     <body>
         <script>
-            alert(navigator.userAgent);
-
+            // alert(navigator.userAgent);
+            let result = /iPhone|Mac OS X/.test(navigator.userAgent);
+            document.write(result);
+            // console.log("navigator.userAgent", navigator.userAgent);
+            document.write(navigator.userAgent);
             // if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
             //     console.log("isIOS");
             //     alert(navigator.userAgent);
